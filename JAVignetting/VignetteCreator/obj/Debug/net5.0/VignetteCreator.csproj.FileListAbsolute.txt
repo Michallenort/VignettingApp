@@ -1,0 +1,12 @@
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\bin\Debug\net5.0\VignetteCreator.deps.json
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\bin\Debug\net5.0\VignetteCreator.dll
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\bin\Debug\net5.0\VignetteCreator.pdb
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.dll
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\refint\VignetteCreator.dll
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\VignetteCreator.pdb
+C:\Users\micha\OneDrive\Pulpit\JAVignetting\VignetteCreator\obj\Debug\net5.0\ref\VignetteCreator.dll

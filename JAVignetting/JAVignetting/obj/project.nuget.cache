@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "POa3vz36QEL0hpMMQ97fdb0y0CmnYmRQU1WkcDl7lL9d5ux8heoBjboCCNtYChA3DDOHzfodopoPaAvYudT0Qw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\micha\\OneDrive\\Pulpit\\JAVignetting\\JAVignetting\\JAVignetting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

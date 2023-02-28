@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "VignetteCreator/1.0.0": {
+        "runtime": {
+          "VignetteCreator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VignetteCreator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JAVignetting": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

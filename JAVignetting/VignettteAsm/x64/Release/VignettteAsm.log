@@ -1,0 +1,6 @@
+﻿  Assembling JaAsm.asm...
+     Trwa tworzenie biblioteki C:\Users\micha\OneDrive\Pulpit\JAVignetting\x64\Release\VignettteAsm.lib i obiektu C:\Users\micha\OneDrive\Pulpit\JAVignetting\x64\Release\VignettteAsm.exp
+VignettteAsm.exp : warning LNK4070: /OUT: dyrektywa JAAsm.dll w pliku .EXP jest inna niż nazwa pliku wyjściowego „C:\Users\micha\OneDrive\Pulpit\JAVignetting\x64\Release\VignettteAsm.dll”; dyrektywa została zignorowana
+  LINK : określono opcję /LTCG, lecz generowanie kodu nie było wymagane; usuń opcję /LTCG z wiersza polecenia konsolidatora w celu podwyższenia wydajności konsolidatora
+VignettteAsm.exp : warning LNK4070: /OUT: dyrektywa JAAsm.dll w pliku .EXP jest inna niż nazwa pliku wyjściowego „C:\Users\micha\OneDrive\Pulpit\JAVignetting\x64\Release\VignettteAsm.dll”; dyrektywa została zignorowana
+  VignettteAsm.vcxproj -> C:\Users\micha\OneDrive\Pulpit\JAVignetting\x64\Release\VignettteAsm.dll

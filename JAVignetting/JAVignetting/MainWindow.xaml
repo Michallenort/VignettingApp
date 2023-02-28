@@ -1,0 +1,67 @@
+﻿<Window x:Class="JAVignetting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JAVignetting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="4" Grid.Column="3" x:Name="radio">
+            <RadioButton x:Name="csharpButton" IsChecked="True" Margin="10,10,10,10">C#</RadioButton>
+            <RadioButton x:Name="asmButton" Margin="10,10,10,10">ASM</RadioButton>
+        </StackPanel>
+
+        <DockPanel Grid.Row="4" Grid.Column="2">
+            <Label Content="Threads number:" VerticalAlignment="Top" DockPanel.Dock="Top"/>
+            <Slider x:Name="threadsNumber" Minimum="1" Maximum="64" Margin="0,0,5,20" Width="250" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding ElementName=threadsNumber, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,10,20" IsReadOnly="True"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="5" Grid.Column="2">
+            <Label Content="Vignette's radious:" VerticalAlignment="Top" DockPanel.Dock="Top"/>
+            <Slider x:Name="radiousValue" Minimum="0" Maximum="100" Value="50" Margin="0,0,5,20" Width="250" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding ElementName=radiousValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,10,20" IsReadOnly="True"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="6" Grid.Column="2">
+            <Label Content="X position:" VerticalAlignment="Top" DockPanel.Dock="Top"/>
+            <Slider x:Name="xPositionValue" Minimum="0" Maximum="100" Value="50" Margin="0,0,5,20" Width="250" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding ElementName=xPositionValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,10,20" IsReadOnly="True"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="7" Grid.Column="2">
+            <Label Content="Y position:" VerticalAlignment="Top" DockPanel.Dock="Top"/>
+            <Slider x:Name="yPositionValue" Minimum="0" Maximum="100" Value="50" Margin="0,0,5,20" Width="250" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding ElementName=yPositionValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,10,20" IsReadOnly="True"/>
+        </DockPanel>
+
+        <Button Grid.Row="5" Grid.Column="3" Content="Load" x:Name="loadBtn" Margin="10,10,10,10" Click="loadBtn_Click"/>
+        <Button Grid.Row="6" Grid.Column="3" Content="Run" x:Name="runBtn" Margin="10,10,10,10" Click="runBtn_Click"/>
+        <Button Grid.Row="7" Grid.Column="3" Content="Save" x:Name="saveBtn" Margin="10,10,10,10" Click="saveBtn_Click"/>
+
+        <TextBlock x:Name="time" Grid.Column="1" Grid.Row="6" FontSize="26" TextAlignment="Center" VerticalAlignment="Center" Margin="10,0,10,0"/>
+
+        <Image x:Name="imgBefore" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
+        <Image x:Name="imgAfter" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
+    </Grid>
+</Window>
